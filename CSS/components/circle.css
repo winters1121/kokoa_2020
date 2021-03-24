@@ -1,0 +1,9 @@
+.cog__circle {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -5px;
+  bottom: 20px;
+}
