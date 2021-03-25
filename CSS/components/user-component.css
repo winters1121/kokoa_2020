@@ -15,12 +15,13 @@
   border-radius: 30px;
   margin-right: 20px;
 }
+
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
 }
 .user-component__subtitle {
-  margin-top: 8px;
+  margin-top: 12px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -45,4 +46,10 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component__text span {
+  position: relative;
+  right: -145px;
+  bottom: 15px;
+  color: tomato;
 }
