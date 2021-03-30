@@ -29,6 +29,16 @@
     opacity: 1;
   }
 }
+@keyframes maintimestamp {
+  from {
+    opacity: 0;
+    transform: scale(3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .main-chat {
   margin-top: 150px;
   display: flex;
@@ -43,6 +53,7 @@
   border-radius: 25px;
   font-size: 14px;
   margin-bottom: 25px;
+  animation: maintimestamp 1s linear;
 }
 
 @keyframes message-row {
@@ -124,7 +135,7 @@
   padding: 5px 25px;
   align-items: center;
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: transform all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -180,7 +191,7 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
   width: 98vw;
   transform: translateX(-11%) translateY(-80px);
 }
