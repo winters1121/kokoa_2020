@@ -26,6 +26,7 @@ body {
   color: #2f363e;
   font-family: "Open Sans", sans-serif;
   padding-top: var(--horizontal-space);
+  height: 115vh;
 }
 
 .main-screen {
